@@ -133,6 +133,50 @@ aside{
     padding-left: 20px;
 }
 
+aside .popular-articles header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+aside .popular-articles header h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+aside .popular-articles header p {
+    font-size: 1rem;
+    color: #666;
+}
+aside .popular-articles ul {
+    list-style: none;
+    padding: 0;
+}
+aside .popular-articles li {
+    margin-bottom: 15px;
+}
+aside .popular-articles li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+aside .popular-articles li figure {
+    margin: 0;
+    flex-shrink: 0;
+}
+aside .popular-articles li figure img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+aside .popular-articles li figcaption {
+    text-align: center;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+aside .popular-articles li a:hover figcaption {
+    text-decoration: underline;
+}
+
 /*menetapkan minimal ukuran layar mengikuti nya sesuai dengan role*/
 @media screen and (max-width: 1000px) {
     #content,
