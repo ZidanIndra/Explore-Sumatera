@@ -84,30 +84,41 @@ a:hover{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 
-/*menetapkan list kesamping dan tidak menggukana tipe list juga garis bawah pada */
-nav li{
+  .nav-list {
+    background-color: #72BF78;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 150px; /* Mengubah lebar logo menjadi 150 pixel */
+    height: auto; 
+}
+
+nav li {
     display: inline;
     list-style-type: none;
     margin-right: 20px;
 }
 
-nav{
-    background-color: #72BF78;
-    padding: 5px;
-    position: sticky;
-    top: 0;
-}
-
-/*menerapkan jumbotron agar tetap tidak berubah ketika di scroll*/
-header{
-    display: inline;
-}
-
-nav a{
+nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
     color: white;
+}
+
+header{
+    display: inline;
 }
 
 #content{
